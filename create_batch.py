@@ -33,11 +33,16 @@ class Corpus:
 
         if(get_2hop):
             self.graph = self.get_graph()
-            self.node_neighbors_2hop = self.get_further_neighbors()
+            #self.node_neighbors_2hop = self.get_further_neighbors()
+            import pickle
+            print("Opening node_neighbors pickle object")
+            file = args.data + "/2hop.pickle"
+            with open(file, 'rb') as handle:
+                self.node_neighbors_2hop = pickle.load(handle)
 
         self.unique_entities_train = [self.entity2id[i]
                                       for i in unique_entities_train]
-
+        self.unique_entities_train.sort()
         self.train_indices = np.array(
             list(self.train_triples)).astype(np.int32)
         # These are valid triples, hence all have value 1
@@ -343,11 +348,11 @@ class Corpus:
         source_embeds = entity_embeddings[batch_inputs[:, 0]]
         relation_embeds = relation_embeddings[batch_inputs[:, 1]]
         tail_embeds = entity_embeddings[batch_inputs[:, 2]]
-        x = source_embeds + relation_embed - tail_embeds
+        x = source_embeds + relation_embeds - tail_embeds
         x = torch.norm(x, p=1, dim=1)
         return x
 
-    def get_validation_pred(self, args, model, unique_entities):
+    def get_validation_pred(self, args, model, unique_entities, mode=None):
         average_hits_at_100_head, average_hits_at_100_tail = [], []
         average_hits_at_ten_head, average_hits_at_ten_tail = [], []
         average_hits_at_three_head, average_hits_at_three_tail = [], []
@@ -357,9 +362,14 @@ class Corpus:
 
         for iters in range(1):
             start_time = time.time()
-
-            indices = [i for i in range(len(self.test_indices))]
-            batch_indices = self.test_indices[indices, :]
+            if mode == 'test':
+                indices = [i for i in range(len(self.test_indices))]
+                batch_indices = self.test_indices[indices, :]
+            elif mode == 'valid':
+                indices = [i for i in range(5000)]
+                batch_indices = self.validation_indices[indices, :]
+            else:
+                raise("choose test or valid")
             print("Sampled indices")
             print("test set length ", len(self.test_indices))
             entity_list = [j for i, j in self.entity2id.items()]
@@ -370,9 +380,10 @@ class Corpus:
             hits_at_ten_head, hits_at_ten_tail = 0, 0
             hits_at_three_head, hits_at_three_tail = 0, 0
             hits_at_one_head, hits_at_one_tail = 0, 0
-
-            for i in range(batch_indices.shape[0]):
-                print(len(ranks_head))
+            from tqdm import tqdm
+            #for i in tqdm(range(5000)):
+            for i in tqdm(range(batch_indices.shape[0])):
+                #print(len(ranks_head))
                 start_time_it = time.time()
                 new_x_batch_head = np.tile(
                     batch_indices[i, :], (len(self.entity2id), 1))
@@ -496,7 +507,7 @@ class Corpus:
                 ranks_tail.append(
                     np.where(sorted_indices_tail.cpu().numpy() == 0)[0][0] + 1)
                 reciprocal_ranks_tail.append(1.0 / ranks_tail[-1])
-                print("sample - ", ranks_head[-1], ranks_tail[-1])
+                #print("sample - ", ranks_head[-1], ranks_tail[-1])
 
             for i in range(len(ranks_head)):
                 if ranks_head[i] <= 100:

@@ -1,4 +1,5 @@
 import torch
+from torch._C import _cuda_resetAccumulatedMemoryStats
 
 from models import SpKBGATModified, SpKBGATConvOnly
 from torch.autograd import Variable
@@ -310,9 +311,9 @@ def train_conv(args):
         else:
             num_iters_per_epoch = (
                 len(Corpus_.train_indices) // args.batch_size_conv) + 1
-
+        start_time_iter = time.time()
         for iters in range(num_iters_per_epoch):
-            start_time_iter = time.time()
+            #start_time_iter = time.time()
             train_indices, train_values = Corpus_.get_iteration_batch(iters)
 
             if CUDA:
@@ -336,34 +337,37 @@ def train_conv(args):
 
             epoch_loss.append(loss.data.item())
 
-            end_time_iter = time.time()
-
-            print("Iteration-> {0}  , Iteration_time-> {1:.4f} , Iteration_loss {2:.4f}".format(
-                iters, end_time_iter - start_time_iter, loss.data.item()))
+            #end_time_iter = time.time()
+            if iters % 500 == 0:
+                print("Iteration-> {0}  , Iteration_time-> {1:.4f} , Iteration_loss {2:.4f}".format(
+                iters, time.time() - start_time_iter, loss.data.item()))
+                start_time_iter = time.time()
 
         scheduler.step()
         print("Epoch {} , average loss {} , epoch_time {}".format(
             epoch, sum(epoch_loss) / len(epoch_loss), time.time() - start_time))
+        if epoch % 3 == 0:
+            evaluate_conv(args, Corpus_.unique_entities_train, epoch + 1, 'valid')
         epoch_losses.append(sum(epoch_loss) / len(epoch_loss))
 
         save_model(model_conv, args.data, epoch,
                    args.output_folder + "conv/")
 
 
-def evaluate_conv(args, unique_entities):
+def evaluate_conv(args, unique_entities, epochs_conv, mode):
     model_conv = SpKBGATConvOnly(entity_embeddings, relation_embeddings, args.entity_out_dim, args.entity_out_dim,
                                  args.drop_GAT, args.drop_conv, args.alpha, args.alpha_conv,
                                  args.nheads_GAT, args.out_channels)
     model_conv.load_state_dict(torch.load(
-        '{0}conv/trained_{1}.pth'.format(args.output_folder, args.epochs_conv - 1)), strict=False)
+        '{0}conv/trained_{1}.pth'.format(args.output_folder, epochs_conv-1)), strict=False)
 
     model_conv.cuda()
     model_conv.eval()
     with torch.no_grad():
-        Corpus_.get_validation_pred(args, model_conv, unique_entities)
+        Corpus_.get_validation_pred(args, model_conv, unique_entities, mode)
 
 
 train_gat(args)
 
 train_conv(args)
-evaluate_conv(args, Corpus_.unique_entities_train)
+evaluate_conv(args, Corpus_.unique_entities_train,args.epochs_conv, 'test')
