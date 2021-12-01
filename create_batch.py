@@ -366,7 +366,7 @@ class Corpus:
                 indices = [i for i in range(len(self.test_indices))]
                 batch_indices = self.test_indices[indices, :]
             elif mode == 'valid':
-                indices = [i for i in range(5000)]
+                indices = [i for i in range(128)]
                 batch_indices = self.validation_indices[indices, :]
             else:
                 raise("choose test or valid")
