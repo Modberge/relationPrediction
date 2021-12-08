@@ -358,7 +358,7 @@ def train_conv(args):
         
         if epoch % 100 == 0:
             save_model(model_conv, args.data, epoch, args.output_folder + "conv/")
-            evaluate_conv(args, Corpus_.unique_entities_train, epoch + 1, 'valid')
+            evaluate_conv(args, Corpus_.unique_entities_train, epoch, 'valid')
         
         epoch_losses.append(sum(epoch_loss) / len(epoch_loss))
 
@@ -373,7 +373,7 @@ def evaluate_conv(args, unique_entities, epochs_conv, mode):
         Corpus_.get_validation_pred(args, model_conv, unique_entities, mode)
 
 
-train_gat(args)
+#train_gat(args)
 #evaluate_conv(args, Corpus_.unique_entities_train, 0, 'valid')
 train_conv(args)
 evaluate_conv(args, Corpus_.unique_entities_train,args.epochs_conv, 'test')
