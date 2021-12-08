@@ -174,7 +174,8 @@ def train_gat(args):
         "\nModel type -> GAT layer with {} heads used , Initital Embeddings training".format(args.nheads_GAT[0]))
     model_gat = SpKBGATModified(entity_embeddings, relation_embeddings, args.entity_out_dim, args.entity_out_dim,
                                 args.drop_GAT, args.alpha, args.nheads_GAT)
-
+    model_gat.load_state_dict(torch.load('{}/trained_{}.pth'.format(args.output_folder, 3000)), strict=False)
+    print('load 3000 epoch model')
     if CUDA:
         model_gat.cuda()
 
@@ -261,7 +262,7 @@ def train_gat(args):
         epoch_losses.append(sum(epoch_loss) / len(epoch_loss))
 
         if epoch % 100 == 0: 
-            save_model(model_gat, args.data, epoch, args.output_folder)
+            save_model(model_gat, args.data, epoch+3000, args.output_folder)
 
 
 def train_conv(args):
