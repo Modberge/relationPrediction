@@ -30,7 +30,7 @@ def parse_args():
     args = argparse.ArgumentParser()
     # network arguments
     args.add_argument("-data", "--data",
-                      default="./data/WN18RR", help="data directory")
+                      default="./data/WN18RR/", help="data directory")
     args.add_argument("-e_g", "--epochs_gat", type=int,
                       default=3600, help="Number of epochs")
     args.add_argument("-e_c", "--epochs_conv", type=int,
@@ -48,7 +48,7 @@ def parse_args():
     args.add_argument("-u2hop", "--use_2hop", type=bool, default=True)
     args.add_argument("-p2hop", "--partial_2hop", type=bool, default=False)
     args.add_argument("-outfolder", "--output_folder",
-                      default="./checkpoints/wn/out/", help="Folder name to save the models.")
+                      default="./checkpoints/WN18RR/out/", help="Folder name to save the models.")
 
     # arguments for GAT
     args.add_argument("-b_gat", "--batch_size_gat", type=int,
@@ -201,7 +201,10 @@ def train_gat(args):
     epoch_losses = []   # losses of all epochs
     print("Number of epochs {}".format(args.epochs_gat))
 
-    for epoch in range(args.epochs_gat):
+    if (args.epochs_gat==0):
+        save_model(model_gat, args.data, -1, args.output_folder)
+
+    for epoch in range(args.epochs_gat+1):
         print("\nepoch-> ", epoch)
         random.shuffle(Corpus_.train_triples)
         Corpus_.train_indices = np.array(
@@ -252,12 +255,13 @@ def train_gat(args):
             if iters == 0:
                 break
         scheduler.step()
+
         print("Epoch {} , average loss {} , epoch_time {}".format(
-            epoch, sum(epoch_loss) / len(epoch_loss), time.time() - start_time))
+                epoch, sum(epoch_loss) / len(epoch_loss), time.time() - start_time))
         epoch_losses.append(sum(epoch_loss) / len(epoch_loss))
 
-        save_model(model_gat, args.data, epoch,
-                   args.output_folder)
+        if epoch % 100 == 0: 
+            save_model(model_gat, args.data, epoch, args.output_folder)
 
 
 def train_conv(args):
@@ -276,7 +280,7 @@ def train_conv(args):
         model_conv.cuda()
         model_gat.cuda()
 
-    model_gat.load_state_dict(torch.load('{}/trained_{}.pth'.format(args.output_folder, args.epochs_gat - 1)), strict=False)
+    model_gat.load_state_dict(torch.load('{}/trained_{}.pth'.format(args.output_folder, args.epochs_gat)), strict=False)
     model_conv.final_entity_embeddings = model_gat.final_entity_embeddings
     model_conv.final_relation_embeddings = model_gat.final_relation_embeddings
 
@@ -294,7 +298,11 @@ def train_conv(args):
     epoch_losses = []   # losses of all epochs
     print("Number of epochs {}".format(args.epochs_conv))
 
-    for epoch in range(args.epochs_conv):
+    if(args.epochs_conv == 0):
+        save_model(model_conv, args.data, -1, args.output_folder + "conv/")
+
+
+    for epoch in range(args.epochs_conv+1):
         print("\nepoch-> ", epoch)
         random.shuffle(Corpus_.train_triples)
         Corpus_.train_indices = np.array(
@@ -337,7 +345,7 @@ def train_conv(args):
             epoch_loss.append(loss.data.item())
 
             #end_time_iter = time.time()
-            if iters % 500 == 0:
+            if iters % 1000 == 0:
                 print("Iteration-> {0}  , Iteration_time-> {1:.4f} , Iteration_loss {2:.4f}".format(
                 iters, time.time() - start_time_iter, loss.data.item()))
                 start_time_iter = time.time()
@@ -347,27 +355,24 @@ def train_conv(args):
         print("Epoch {} , average loss {} , epoch_time {}".format(
             epoch, sum(epoch_loss) / len(epoch_loss), time.time() - start_time))
         
-        save_model(model_conv, args.data, epoch, args.output_folder + "conv/")
-        
-        if epoch % 3 == 0:
+        if epoch % 100 == 0:
+            save_model(model_conv, args.data, epoch, args.output_folder + "conv/")
             evaluate_conv(args, Corpus_.unique_entities_train, epoch + 1, 'valid')
-        epoch_losses.append(sum(epoch_loss) / len(epoch_loss))
-
         
-
+        epoch_losses.append(sum(epoch_loss) / len(epoch_loss))
 
 def evaluate_conv(args, unique_entities, epochs_conv, mode):
     model_conv = SpKBGATConvOnly(entity_embeddings, relation_embeddings, args.entity_out_dim, args.entity_out_dim,
                                  args.drop_GAT, args.drop_conv, args.alpha, args.alpha_conv,
                                  args.nheads_GAT, args.out_channels)
-    if epochs_conv != 0:
-        model_conv.load_state_dict(torch.load('{0}conv/trained_{1}.pth'.format(args.output_folder, epochs_conv-1)), strict=False)
+    model_conv.load_state_dict(torch.load('{0}conv/trained_{1}.pth'.format(args.output_folder, epochs_conv)), strict=False)
     model_conv.cuda()
     model_conv.eval()
     with torch.no_grad():
         Corpus_.get_validation_pred(args, model_conv, unique_entities, mode)
 
-#evaluate_conv(args, Corpus_.unique_entities_train, 0, 'valid')
+
 train_gat(args)
+#evaluate_conv(args, Corpus_.unique_entities_train, 0, 'valid')
 train_conv(args)
 evaluate_conv(args, Corpus_.unique_entities_train,args.epochs_conv, 'test')
