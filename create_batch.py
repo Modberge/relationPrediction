@@ -4,7 +4,7 @@ from collections import defaultdict
 import time
 import queue
 import random
-
+import wandb
 
 class Corpus:
     def __init__(self, args, train_data, validation_data, test_data, entity2id,
@@ -377,7 +377,7 @@ class Corpus:
                 #indices = [i for i in range(128)]
                 batch_indices = self.test_indices[indices, :]
             elif mode == 'valid':
-                indices = [i for i in range(128)]
+                indices = [i for i in range(len(self.validation_indices))]
                 batch_indices = self.validation_indices[indices, :]
             else:
                 raise("choose test or valid")
@@ -644,3 +644,10 @@ class Corpus:
         print("Hits@1 are {}".format(cumulative_hits_one))
         print("Mean rank {}".format(cumulative_mean_rank))
         print("Mean Reciprocal Rank {}".format(cumulative_mean_recip_rank))
+        
+        wandb.log({
+            "MRR":cumulative_mean_recip_rank,
+            "H@1":cumulative_hits_one,
+            "H@3":cumulative_hits_three,
+            "H@10":cumulative_hits_ten,
+        })

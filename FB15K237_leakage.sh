@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=3 python main.py \
+CUDA_VISIBLE_DEVICES=2 python main.py \
     --data ./data/FB15k-237/ \
     --epochs_gat 3000 \
     --epochs_conv 200 \

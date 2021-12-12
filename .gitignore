@@ -6,3 +6,4 @@ wn_test
 screenlog.0
 checkpoints/
 .vscode/launch.json
+wandb/

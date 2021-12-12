@@ -22,6 +22,10 @@ import logging
 import time
 import pickle
 
+import wandb
+
+wandb.init(project="KBAT", entity="yaozhen")
+
 # %%
 # %%from torchviz import make_dot, make_dot_from_trace
 
@@ -84,8 +88,8 @@ def parse_args():
     args = args.parse_args()
     return args
 
-
 args = parse_args()
+
 # %%
 
 
@@ -262,7 +266,10 @@ def train_gat(args):
         print("Epoch {} , average loss {} , epoch_time {}".format(
                 epoch, sum(epoch_loss) / len(epoch_loss), time.time() - start_time))
         epoch_losses.append(sum(epoch_loss) / len(epoch_loss))
-
+        wandb.log({
+            "Epoch":epoch,
+            "Loss":sum(epoch_loss) / len(epoch_loss)
+        })
         if epoch % 100 == 0: 
             save_model(model_gat, args.data, epoch, args.output_folder)
 
@@ -356,7 +363,10 @@ def train_conv(args):
         scheduler.step()
         print("Epoch {} , average loss {} , epoch_time {}".format(
             epoch, sum(epoch_loss) / len(epoch_loss), time.time() - start_time))
-        
+        wandb.log({
+            "Epoch":epoch,
+            "Loss":sum(epoch_loss) / len(epoch_loss)
+        })
         if epoch % 10 == 0:
             save_model(model_conv, args.data, epoch, args.output_folder + "conv/")
             evaluate_conv(args, Corpus_.unique_entities_train, epoch, 'valid')
@@ -377,3 +387,5 @@ def evaluate_conv(args, unique_entities, epochs_conv, mode):
 train_gat(args)
 train_conv(args)
 evaluate_conv(args, Corpus_.unique_entities_train,args.epochs_conv, 'test')
+
+# %%
