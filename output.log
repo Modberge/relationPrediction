@@ -1,0 +1,1926 @@
+epoch->  2991
+Iteration-> 0  , Iteration_time-> 2.3806 , Iteration_loss 0.0038
+Epoch 2991 , average loss 0.0037750559858977795 , epoch_time 2.3809523582458496
+
+epoch->  2992
+Iteration-> 0  , Iteration_time-> 2.9764 , Iteration_loss 0.0038
+Epoch 2992 , average loss 0.003828970715403557 , epoch_time 2.9766223430633545
+
+epoch->  2993
+Iteration-> 0  , Iteration_time-> 2.5149 , Iteration_loss 0.0038
+Epoch 2993 , average loss 0.0038215811364352703 , epoch_time 2.5151782035827637
+
+epoch->  2994
+Iteration-> 0  , Iteration_time-> 3.2854 , Iteration_loss 0.0040
+Epoch 2994 , average loss 0.004002755973488092 , epoch_time 3.285613775253296
+
+epoch->  2995
+Iteration-> 0  , Iteration_time-> 3.3545 , Iteration_loss 0.0037
+Epoch 2995 , average loss 0.0037493512500077486 , epoch_time 3.355435609817505
+
+epoch->  2996
+Iteration-> 0  , Iteration_time-> 2.5916 , Iteration_loss 0.0040
+Epoch 2996 , average loss 0.004022809211164713 , epoch_time 2.591731071472168
+
+epoch->  2997
+Iteration-> 0  , Iteration_time-> 2.3706 , Iteration_loss 0.0038
+Epoch 2997 , average loss 0.0038411885034292936 , epoch_time 2.3707876205444336
+
+epoch->  2998
+Iteration-> 0  , Iteration_time-> 2.3122 , Iteration_loss 0.0038
+Epoch 2998 , average loss 0.003843412036076188 , epoch_time 2.3124353885650635
+
+epoch->  2999
+Iteration-> 0  , Iteration_time-> 2.6100 , Iteration_loss 0.0038
+Epoch 2999 , average loss 0.003824654035270214 , epoch_time 2.610304355621338
+
+epoch->  3000
+Iteration-> 0  , Iteration_time-> 3.3780 , Iteration_loss 0.0039
+Epoch 3000 , average loss 0.00392062496393919 , epoch_time 3.378236770629883
+Saving Model
+Done saving Model
+Defining model
+Only Conv model trained
+Number of epochs 200
+
+epoch->  0
+Iteration-> 0  , Iteration_time-> 0.0972 , Iteration_loss 0.3561
+Epoch 0 , average loss 0.07779089119618274 , epoch_time 109.89550304412842
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:15<00:00,  8.11it/s]
+here 128
+
+Current iteration time 15.85204792022705
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.5
+Current iteration Hits@10 are 0.203125
+Current iteration Hits@3 are 0.09375
+Current iteration Hits@1 are 0.0703125
+Current iteration Mean rank 472.671875
+Current iteration Mean Reciprocal Rank 0.11430364290483543
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.71875
+Current iteration Hits@10 are 0.4296875
+Current iteration Hits@3 are 0.25
+Current iteration Hits@1 are 0.1640625
+Current iteration Mean rank 391.40625
+Current iteration Mean Reciprocal Rank 0.2507340918184787
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.5
+Hits@10 are 0.203125
+Hits@3 are 0.09375
+Hits@1 are 0.0703125
+Mean rank 472.671875
+Mean Reciprocal Rank 0.11430364290483543
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.71875
+Hits@10 are 0.4296875
+Hits@3 are 0.25
+Hits@1 are 0.1640625
+Mean rank 391.40625
+Mean Reciprocal Rank 0.2507340918184787
+
+Cumulative stats are ->
+Hits@100 are 0.609375
+Hits@10 are 0.31640625
+Hits@3 are 0.171875
+Hits@1 are 0.1171875
+Mean rank 432.0390625
+Mean Reciprocal Rank 0.18251886736165707
+
+epoch->  1
+Iteration-> 0  , Iteration_time-> 0.0587 , Iteration_loss 0.0378
+Epoch 1 , average loss 0.037358048547195974 , epoch_time 109.37145256996155
+
+epoch->  2
+Iteration-> 0  , Iteration_time-> 0.0423 , Iteration_loss 0.0260
+Epoch 2 , average loss 0.02669263949226991 , epoch_time 107.89759826660156
+
+epoch->  3
+Iteration-> 0  , Iteration_time-> 0.0447 , Iteration_loss 0.0172
+Epoch 3 , average loss 0.020718346903168948 , epoch_time 109.86892485618591
+
+epoch->  4
+Iteration-> 0  , Iteration_time-> 0.0443 , Iteration_loss 0.0135
+Epoch 4 , average loss 0.01718230441217911 , epoch_time 110.09617567062378
+
+epoch->  5
+Iteration-> 0  , Iteration_time-> 0.0565 , Iteration_loss 0.0147
+Epoch 5 , average loss 0.015059479259949805 , epoch_time 109.32300305366516
+
+epoch->  6
+Iteration-> 0  , Iteration_time-> 0.0587 , Iteration_loss 0.0114
+Epoch 6 , average loss 0.013624805214561641 , epoch_time 107.0559389591217
+
+epoch->  7
+Iteration-> 0  , Iteration_time-> 0.0641 , Iteration_loss 0.0112
+Epoch 7 , average loss 0.012526613305325455 , epoch_time 109.34688997268677
+
+epoch->  8
+Iteration-> 0  , Iteration_time-> 0.0462 , Iteration_loss 0.0072
+Epoch 8 , average loss 0.011877992346371161 , epoch_time 107.43982672691345
+
+epoch->  9
+Iteration-> 0  , Iteration_time-> 0.0381 , Iteration_loss 0.0075
+Epoch 9 , average loss 0.01120528638400558 , epoch_time 108.59643483161926
+
+epoch->  10
+Iteration-> 0  , Iteration_time-> 0.0503 , Iteration_loss 0.0115
+Epoch 10 , average loss 0.010688913366884371 , epoch_time 109.39519596099854
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:13<00:00,  9.63it/s]
+here 128
+
+Current iteration time 13.290560007095337
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.453125
+Current iteration Hits@10 are 0.21875
+Current iteration Hits@3 are 0.125
+Current iteration Hits@1 are 0.046875
+Current iteration Mean rank 631.125
+Current iteration Mean Reciprocal Rank 0.11027443580897248
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.6484375
+Current iteration Hits@10 are 0.3125
+Current iteration Hits@3 are 0.15625
+Current iteration Hits@1 are 0.0546875
+Current iteration Mean rank 330.5703125
+Current iteration Mean Reciprocal Rank 0.14133988070046932
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.453125
+Hits@10 are 0.21875
+Hits@3 are 0.125
+Hits@1 are 0.046875
+Mean rank 631.125
+Mean Reciprocal Rank 0.11027443580897248
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.6484375
+Hits@10 are 0.3125
+Hits@3 are 0.15625
+Hits@1 are 0.0546875
+Mean rank 330.5703125
+Mean Reciprocal Rank 0.14133988070046932
+
+Cumulative stats are ->
+Hits@100 are 0.55078125
+Hits@10 are 0.265625
+Hits@3 are 0.140625
+Hits@1 are 0.05078125
+Mean rank 480.84765625
+Mean Reciprocal Rank 0.12580715825472089
+
+epoch->  11
+Iteration-> 0  , Iteration_time-> 0.0499 , Iteration_loss 0.0094
+Epoch 11 , average loss 0.010297888165571124 , epoch_time 107.74282741546631
+
+epoch->  12
+Iteration-> 0  , Iteration_time-> 0.0409 , Iteration_loss 0.0075
+Epoch 12 , average loss 0.009879592258521721 , epoch_time 109.14697504043579
+
+epoch->  13
+Iteration-> 0  , Iteration_time-> 0.0586 , Iteration_loss 0.0068
+Epoch 13 , average loss 0.009620968352298857 , epoch_time 109.47921323776245
+
+epoch->  14
+Iteration-> 0  , Iteration_time-> 0.0396 , Iteration_loss 0.0072
+Epoch 14 , average loss 0.009472474531618386 , epoch_time 108.52922463417053
+
+epoch->  15
+Iteration-> 0  , Iteration_time-> 0.0468 , Iteration_loss 0.0068
+Epoch 15 , average loss 0.009195792621486976 , epoch_time 108.87442445755005
+
+epoch->  16
+Iteration-> 0  , Iteration_time-> 0.0461 , Iteration_loss 0.0091
+Epoch 16 , average loss 0.009102106743241615 , epoch_time 109.07655620574951
+
+epoch->  17
+Iteration-> 0  , Iteration_time-> 0.0508 , Iteration_loss 0.0067
+Epoch 17 , average loss 0.008903756478266056 , epoch_time 108.83260726928711
+
+epoch->  18
+Iteration-> 0  , Iteration_time-> 0.0298 , Iteration_loss 0.0070
+Epoch 18 , average loss 0.008773216028322806 , epoch_time 106.45049548149109
+
+epoch->  19
+Iteration-> 0  , Iteration_time-> 0.0441 , Iteration_loss 0.0072
+Epoch 19 , average loss 0.008607489831819219 , epoch_time 108.1944739818573
+
+epoch->  20
+Iteration-> 0  , Iteration_time-> 0.0448 , Iteration_loss 0.0063
+Epoch 20 , average loss 0.00856054155035549 , epoch_time 108.27163243293762
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:11<00:00, 10.81it/s]
+here 128
+
+Current iteration time 11.84421682357788
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.4765625
+Current iteration Hits@10 are 0.171875
+Current iteration Hits@3 are 0.1015625
+Current iteration Hits@1 are 0.0546875
+Current iteration Mean rank 806.84375
+Current iteration Mean Reciprocal Rank 0.09892548942314594
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.609375
+Current iteration Hits@10 are 0.2734375
+Current iteration Hits@3 are 0.1484375
+Current iteration Hits@1 are 0.046875
+Current iteration Mean rank 428.59375
+Current iteration Mean Reciprocal Rank 0.12604797736350512
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.4765625
+Hits@10 are 0.171875
+Hits@3 are 0.1015625
+Hits@1 are 0.0546875
+Mean rank 806.84375
+Mean Reciprocal Rank 0.09892548942314594
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.609375
+Hits@10 are 0.2734375
+Hits@3 are 0.1484375
+Hits@1 are 0.046875
+Mean rank 428.59375
+Mean Reciprocal Rank 0.12604797736350512
+
+Cumulative stats are ->
+Hits@100 are 0.54296875
+Hits@10 are 0.22265625
+Hits@3 are 0.125
+Hits@1 are 0.05078125
+Mean rank 617.71875
+Mean Reciprocal Rank 0.11248673339332553
+
+epoch->  21
+Iteration-> 0  , Iteration_time-> 0.0612 , Iteration_loss 0.0085
+Epoch 21 , average loss 0.008391483855518746 , epoch_time 108.90386819839478
+
+epoch->  22
+Iteration-> 0  , Iteration_time-> 0.0462 , Iteration_loss 0.0078
+Epoch 22 , average loss 0.008338822539775744 , epoch_time 107.68737435340881
+
+epoch->  23
+Iteration-> 0  , Iteration_time-> 0.0595 , Iteration_loss 0.0111
+Epoch 23 , average loss 0.008241406439405779 , epoch_time 108.47502970695496
+
+epoch->  24
+Iteration-> 0  , Iteration_time-> 0.0404 , Iteration_loss 0.0046
+Epoch 24 , average loss 0.008147516828433366 , epoch_time 107.4018783569336
+
+epoch->  25
+Iteration-> 0  , Iteration_time-> 0.0449 , Iteration_loss 0.0086
+Epoch 25 , average loss 0.005946980073398832 , epoch_time 108.95420241355896
+
+epoch->  26
+Iteration-> 0  , Iteration_time-> 0.0298 , Iteration_loss 0.0047
+Epoch 26 , average loss 0.004440798904685004 , epoch_time 108.74317741394043
+
+epoch->  27
+Iteration-> 0  , Iteration_time-> 0.0481 , Iteration_loss 0.0037
+Epoch 27 , average loss 0.0041798644920706795 , epoch_time 108.30566477775574
+
+epoch->  28
+Iteration-> 0  , Iteration_time-> 0.0461 , Iteration_loss 0.0015
+Epoch 28 , average loss 0.004220728601733361 , epoch_time 106.06601762771606
+
+epoch->  29
+Iteration-> 0  , Iteration_time-> 0.0444 , Iteration_loss 0.0028
+Epoch 29 , average loss 0.004136563569827747 , epoch_time 106.4682252407074
+
+epoch->  30
+Iteration-> 0  , Iteration_time-> 0.0283 , Iteration_loss 0.0032
+Epoch 30 , average loss 0.0041659589745047364 , epoch_time 105.03962397575378
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:12<00:00, 10.65it/s]
+here 128
+
+Current iteration time 12.019815683364868
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.46875
+Current iteration Hits@10 are 0.21875
+Current iteration Hits@3 are 0.1171875
+Current iteration Hits@1 are 0.0859375
+Current iteration Mean rank 751.953125
+Current iteration Mean Reciprocal Rank 0.12225178289122926
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.6328125
+Current iteration Hits@10 are 0.296875
+Current iteration Hits@3 are 0.1640625
+Current iteration Hits@1 are 0.09375
+Current iteration Mean rank 452.0390625
+Current iteration Mean Reciprocal Rank 0.16506649255692157
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.46875
+Hits@10 are 0.21875
+Hits@3 are 0.1171875
+Hits@1 are 0.0859375
+Mean rank 751.953125
+Mean Reciprocal Rank 0.12225178289122926
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.6328125
+Hits@10 are 0.296875
+Hits@3 are 0.1640625
+Hits@1 are 0.09375
+Mean rank 452.0390625
+Mean Reciprocal Rank 0.16506649255692157
+
+Cumulative stats are ->
+Hits@100 are 0.55078125
+Hits@10 are 0.2578125
+Hits@3 are 0.140625
+Hits@1 are 0.08984375
+Mean rank 601.99609375
+Mean Reciprocal Rank 0.1436591377240754
+
+epoch->  31
+Iteration-> 0  , Iteration_time-> 0.0446 , Iteration_loss 0.0037
+Epoch 31 , average loss 0.004192033033732146 , epoch_time 103.33132195472717
+
+epoch->  32
+Iteration-> 0  , Iteration_time-> 0.0447 , Iteration_loss 0.0049
+Epoch 32 , average loss 0.00415976471000422 , epoch_time 101.28317356109619
+
+epoch->  33
+Iteration-> 0  , Iteration_time-> 0.0261 , Iteration_loss 0.0024
+Epoch 33 , average loss 0.00416940436661261 , epoch_time 101.91963529586792
+
+epoch->  34
+Iteration-> 0  , Iteration_time-> 0.0414 , Iteration_loss 0.0030
+Epoch 34 , average loss 0.004143890460404661 , epoch_time 97.35332417488098
+
+epoch->  35
+Iteration-> 0  , Iteration_time-> 0.0422 , Iteration_loss 0.0022
+Epoch 35 , average loss 0.0041363761831589236 , epoch_time 92.29626703262329
+
+epoch->  36
+Iteration-> 0  , Iteration_time-> 0.0451 , Iteration_loss 0.0027
+Epoch 36 , average loss 0.00414806306589945 , epoch_time 92.60334706306458
+
+epoch->  37
+Iteration-> 0  , Iteration_time-> 0.0371 , Iteration_loss 0.0045
+Epoch 37 , average loss 0.0041320680693534015 , epoch_time 101.25031805038452
+
+epoch->  38
+Iteration-> 0  , Iteration_time-> 0.0256 , Iteration_loss 0.0020
+Epoch 38 , average loss 0.004103794477981632 , epoch_time 93.28167915344238
+
+epoch->  39
+Iteration-> 0  , Iteration_time-> 0.0420 , Iteration_loss 0.0044
+Epoch 39 , average loss 0.00405050302734765 , epoch_time 99.4422447681427
+
+epoch->  40
+Iteration-> 0  , Iteration_time-> 0.0385 , Iteration_loss 0.0036
+Epoch 40 , average loss 0.004122520786988691 , epoch_time 105.09473371505737
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:11<00:00, 10.67it/s]
+here 128
+
+Current iteration time 11.99789309501648
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.484375
+Current iteration Hits@10 are 0.1796875
+Current iteration Hits@3 are 0.1171875
+Current iteration Hits@1 are 0.0859375
+Current iteration Mean rank 912.859375
+Current iteration Mean Reciprocal Rank 0.12104137376749506
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.6640625
+Current iteration Hits@10 are 0.3125
+Current iteration Hits@3 are 0.1875
+Current iteration Hits@1 are 0.1015625
+Current iteration Mean rank 398.0703125
+Current iteration Mean Reciprocal Rank 0.17687893614054423
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.484375
+Hits@10 are 0.1796875
+Hits@3 are 0.1171875
+Hits@1 are 0.0859375
+Mean rank 912.859375
+Mean Reciprocal Rank 0.12104137376749506
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.6640625
+Hits@10 are 0.3125
+Hits@3 are 0.1875
+Hits@1 are 0.1015625
+Mean rank 398.0703125
+Mean Reciprocal Rank 0.17687893614054423
+
+Cumulative stats are ->
+Hits@100 are 0.57421875
+Hits@10 are 0.24609375
+Hits@3 are 0.15234375
+Hits@1 are 0.09375
+Mean rank 655.46484375
+Mean Reciprocal Rank 0.14896015495401965
+
+epoch->  41
+Iteration-> 0  , Iteration_time-> 0.0442 , Iteration_loss 0.0037
+Epoch 41 , average loss 0.004018725291256349 , epoch_time 101.90243172645569
+
+epoch->  42
+Iteration-> 0  , Iteration_time-> 0.0442 , Iteration_loss 0.0031
+Epoch 42 , average loss 0.004071441475248975 , epoch_time 97.53472948074341
+
+epoch->  43
+Iteration-> 0  , Iteration_time-> 0.0276 , Iteration_loss 0.0027
+Epoch 43 , average loss 0.004018413595474559 , epoch_time 90.16959190368652
+
+epoch->  44
+Iteration-> 0  , Iteration_time-> 0.0365 , Iteration_loss 0.0019
+Epoch 44 , average loss 0.004048958524848271 , epoch_time 96.61054730415344
+
+epoch->  45
+Iteration-> 0  , Iteration_time-> 0.0329 , Iteration_loss 0.0030
+Epoch 45 , average loss 0.003982078710041751 , epoch_time 95.26042819023132
+
+epoch->  46
+Iteration-> 0  , Iteration_time-> 0.0466 , Iteration_loss 0.0022
+Epoch 46 , average loss 0.00393655965581531 , epoch_time 104.6864128112793
+
+epoch->  47
+Iteration-> 0  , Iteration_time-> 0.0354 , Iteration_loss 0.0024
+Epoch 47 , average loss 0.004006367864585302 , epoch_time 99.12193512916565
+
+epoch->  48
+Iteration-> 0  , Iteration_time-> 0.0320 , Iteration_loss 0.0033
+Epoch 48 , average loss 0.00393722664371224 , epoch_time 101.40523934364319
+
+epoch->  49
+Iteration-> 0  , Iteration_time-> 0.0446 , Iteration_loss 0.0026
+Epoch 49 , average loss 0.003910090495360908 , epoch_time 99.8550021648407
+
+epoch->  50
+Iteration-> 0  , Iteration_time-> 0.0445 , Iteration_loss 0.0079
+Epoch 50 , average loss 0.003057834721786502 , epoch_time 97.04753947257996
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:11<00:00, 10.78it/s]
+here 128
+
+Current iteration time 11.873391151428223
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.4609375
+Current iteration Hits@10 are 0.1796875
+Current iteration Hits@3 are 0.09375
+Current iteration Hits@1 are 0.0546875
+Current iteration Mean rank 736.828125
+Current iteration Mean Reciprocal Rank 0.09392948498937313
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.640625
+Current iteration Hits@10 are 0.3203125
+Current iteration Hits@3 are 0.203125
+Current iteration Hits@1 are 0.1171875
+Current iteration Mean rank 383.265625
+Current iteration Mean Reciprocal Rank 0.18362342463696696
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.4609375
+Hits@10 are 0.1796875
+Hits@3 are 0.09375
+Hits@1 are 0.0546875
+Mean rank 736.828125
+Mean Reciprocal Rank 0.09392948498937313
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.640625
+Hits@10 are 0.3203125
+Hits@3 are 0.203125
+Hits@1 are 0.1171875
+Mean rank 383.265625
+Mean Reciprocal Rank 0.18362342463696696
+
+Cumulative stats are ->
+Hits@100 are 0.55078125
+Hits@10 are 0.25
+Hits@3 are 0.1484375
+Hits@1 are 0.0859375
+Mean rank 560.046875
+Mean Reciprocal Rank 0.13877645481317005
+
+epoch->  51
+Iteration-> 0  , Iteration_time-> 0.0332 , Iteration_loss 0.0015
+Epoch 51 , average loss 0.0022556635506034094 , epoch_time 100.16466236114502
+
+epoch->  52
+Iteration-> 0  , Iteration_time-> 0.0387 , Iteration_loss 0.0022
+Epoch 52 , average loss 0.002154366482806638 , epoch_time 99.38149738311768
+
+epoch->  53
+Iteration-> 0  , Iteration_time-> 0.0344 , Iteration_loss 0.0023
+Epoch 53 , average loss 0.002059364647433461 , epoch_time 99.27214765548706
+
+epoch->  54
+Iteration-> 0  , Iteration_time-> 0.0342 , Iteration_loss 0.0031
+Epoch 54 , average loss 0.002003115879254909 , epoch_time 102.5527937412262
+
+epoch->  55
+Iteration-> 0  , Iteration_time-> 0.0343 , Iteration_loss 0.0022
+Epoch 55 , average loss 0.0020631601226184016 , epoch_time 99.9332525730133
+
+epoch->  56
+Iteration-> 0  , Iteration_time-> 0.0450 , Iteration_loss 0.0012
+Epoch 56 , average loss 0.0020002200324773906 , epoch_time 102.10656881332397
+
+epoch->  57
+Iteration-> 0  , Iteration_time-> 0.0451 , Iteration_loss 0.0012
+Epoch 57 , average loss 0.0019922270319371565 , epoch_time 97.72749376296997
+
+epoch->  58
+Iteration-> 0  , Iteration_time-> 0.0388 , Iteration_loss 0.0020
+Epoch 58 , average loss 0.001993598970625092 , epoch_time 102.90553545951843
+
+epoch->  59
+Iteration-> 0  , Iteration_time-> 0.0458 , Iteration_loss 0.0014
+Epoch 59 , average loss 0.0020055055057236564 , epoch_time 104.80063128471375
+
+epoch->  60
+Iteration-> 0  , Iteration_time-> 0.0431 , Iteration_loss 0.0021
+Epoch 60 , average loss 0.001991517922748143 , epoch_time 101.87596130371094
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:11<00:00, 10.69it/s]
+here 128
+
+Current iteration time 11.974400520324707
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.484375
+Current iteration Hits@10 are 0.1953125
+Current iteration Hits@3 are 0.09375
+Current iteration Hits@1 are 0.0703125
+Current iteration Mean rank 663.390625
+Current iteration Mean Reciprocal Rank 0.1098182778798693
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.7421875
+Current iteration Hits@10 are 0.328125
+Current iteration Hits@3 are 0.1640625
+Current iteration Hits@1 are 0.0859375
+Current iteration Mean rank 300.6328125
+Current iteration Mean Reciprocal Rank 0.17060627948284673
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.484375
+Hits@10 are 0.1953125
+Hits@3 are 0.09375
+Hits@1 are 0.0703125
+Mean rank 663.390625
+Mean Reciprocal Rank 0.1098182778798693
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.7421875
+Hits@10 are 0.328125
+Hits@3 are 0.1640625
+Hits@1 are 0.0859375
+Mean rank 300.6328125
+Mean Reciprocal Rank 0.17060627948284673
+
+Cumulative stats are ->
+Hits@100 are 0.61328125
+Hits@10 are 0.26171875
+Hits@3 are 0.12890625
+Hits@1 are 0.078125
+Mean rank 482.01171875
+Mean Reciprocal Rank 0.14021227868135802
+
+epoch->  61
+Iteration-> 0  , Iteration_time-> 0.0463 , Iteration_loss 0.0024
+Epoch 61 , average loss 0.0020127512215284468 , epoch_time 99.71864438056946
+
+epoch->  62
+Iteration-> 0  , Iteration_time-> 0.0468 , Iteration_loss 0.0018
+Epoch 62 , average loss 0.001997768914255621 , epoch_time 104.92832016944885
+
+epoch->  63
+Iteration-> 0  , Iteration_time-> 0.0460 , Iteration_loss 0.0010
+Epoch 63 , average loss 0.002026521644835612 , epoch_time 104.36148023605347
+
+epoch->  64
+Iteration-> 0  , Iteration_time-> 0.0594 , Iteration_loss 0.0011
+Epoch 64 , average loss 0.0020396805379096408 , epoch_time 104.29298543930054
+
+epoch->  65
+Iteration-> 0  , Iteration_time-> 0.0419 , Iteration_loss 0.0022
+Epoch 65 , average loss 0.0020410114255352014 , epoch_time 100.20380783081055
+
+epoch->  66
+Iteration-> 0  , Iteration_time-> 0.0450 , Iteration_loss 0.0020
+Epoch 66 , average loss 0.00202968214121726 , epoch_time 98.66498041152954
+
+epoch->  67
+Iteration-> 0  , Iteration_time-> 0.0435 , Iteration_loss 0.0023
+Epoch 67 , average loss 0.002041469526342782 , epoch_time 102.16874837875366
+
+epoch->  68
+Iteration-> 0  , Iteration_time-> 0.0296 , Iteration_loss 0.0031
+Epoch 68 , average loss 0.0020337562554619717 , epoch_time 99.44047379493713
+
+epoch->  69
+Iteration-> 0  , Iteration_time-> 0.0460 , Iteration_loss 0.0009
+Epoch 69 , average loss 0.0020451819215635512 , epoch_time 102.13375282287598
+
+epoch->  70
+Iteration-> 0  , Iteration_time-> 0.0370 , Iteration_loss 0.0012
+Epoch 70 , average loss 0.002042656172769909 , epoch_time 99.25518870353699
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:11<00:00, 10.87it/s]
+here 128
+
+Current iteration time 11.780096292495728
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.4375
+Current iteration Hits@10 are 0.171875
+Current iteration Hits@3 are 0.09375
+Current iteration Hits@1 are 0.0703125
+Current iteration Mean rank 747.03125
+Current iteration Mean Reciprocal Rank 0.10028655115291024
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.71875
+Current iteration Hits@10 are 0.34375
+Current iteration Hits@3 are 0.1953125
+Current iteration Hits@1 are 0.1015625
+Current iteration Mean rank 444.5625
+Current iteration Mean Reciprocal Rank 0.1832227274413941
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.4375
+Hits@10 are 0.171875
+Hits@3 are 0.09375
+Hits@1 are 0.0703125
+Mean rank 747.03125
+Mean Reciprocal Rank 0.10028655115291024
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.71875
+Hits@10 are 0.34375
+Hits@3 are 0.1953125
+Hits@1 are 0.1015625
+Mean rank 444.5625
+Mean Reciprocal Rank 0.1832227274413941
+
+Cumulative stats are ->
+Hits@100 are 0.578125
+Hits@10 are 0.2578125
+Hits@3 are 0.14453125
+Hits@1 are 0.0859375
+Mean rank 595.796875
+Mean Reciprocal Rank 0.14175463929715215
+
+epoch->  71
+Iteration-> 0  , Iteration_time-> 0.0320 , Iteration_loss 0.0016
+Epoch 71 , average loss 0.0020444220101189436 , epoch_time 103.64480900764465
+
+epoch->  72
+Iteration-> 0  , Iteration_time-> 0.0241 , Iteration_loss 0.0015
+Epoch 72 , average loss 0.0020351929230948865 , epoch_time 105.66686344146729
+
+epoch->  73
+Iteration-> 0  , Iteration_time-> 0.0448 , Iteration_loss 0.0011
+Epoch 73 , average loss 0.002045133538745249 , epoch_time 101.98861789703369
+
+epoch->  74
+Iteration-> 0  , Iteration_time-> 0.0387 , Iteration_loss 0.0018
+Epoch 74 , average loss 0.002035505224745598 , epoch_time 105.30176019668579
+
+epoch->  75
+Iteration-> 0  , Iteration_time-> 0.0374 , Iteration_loss 0.0011
+Epoch 75 , average loss 0.0017069092708206556 , epoch_time 104.18000054359436
+
+epoch->  76
+Iteration-> 0  , Iteration_time-> 0.0324 , Iteration_loss 0.0009
+Epoch 76 , average loss 0.0014164026811342644 , epoch_time 104.84321808815002
+
+epoch->  77
+Iteration-> 0  , Iteration_time-> 0.0284 , Iteration_loss 0.0022
+Epoch 77 , average loss 0.0013180308194321985 , epoch_time 103.79395484924316
+
+epoch->  78
+Iteration-> 0  , Iteration_time-> 0.0395 , Iteration_loss 0.0010
+Epoch 78 , average loss 0.0012946407812000722 , epoch_time 103.67683267593384
+
+epoch->  79
+Iteration-> 0  , Iteration_time-> 0.0462 , Iteration_loss 0.0014
+Epoch 79 , average loss 0.0012385875552379931 , epoch_time 101.6712875366211
+
+epoch->  80
+Iteration-> 0  , Iteration_time-> 0.0466 , Iteration_loss 0.0005
+Epoch 80 , average loss 0.001217331000361596 , epoch_time 100.20568680763245
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:11<00:00, 10.78it/s]
+here 128
+
+Current iteration time 11.877232551574707
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.4609375
+Current iteration Hits@10 are 0.203125
+Current iteration Hits@3 are 0.1171875
+Current iteration Hits@1 are 0.0703125
+Current iteration Mean rank 727.125
+Current iteration Mean Reciprocal Rank 0.11650518886259491
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.71875
+Current iteration Hits@10 are 0.3359375
+Current iteration Hits@3 are 0.21875
+Current iteration Hits@1 are 0.125
+Current iteration Mean rank 330.3671875
+Current iteration Mean Reciprocal Rank 0.19956448278257738
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.4609375
+Hits@10 are 0.203125
+Hits@3 are 0.1171875
+Hits@1 are 0.0703125
+Mean rank 727.125
+Mean Reciprocal Rank 0.11650518886259491
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.71875
+Hits@10 are 0.3359375
+Hits@3 are 0.21875
+Hits@1 are 0.125
+Mean rank 330.3671875
+Mean Reciprocal Rank 0.19956448278257738
+
+Cumulative stats are ->
+Hits@100 are 0.58984375
+Hits@10 are 0.26953125
+Hits@3 are 0.16796875
+Hits@1 are 0.09765625
+Mean rank 528.74609375
+Mean Reciprocal Rank 0.15803483582258615
+
+epoch->  81
+Iteration-> 0  , Iteration_time-> 0.0309 , Iteration_loss 0.0007
+Epoch 81 , average loss 0.0012440827568878639 , epoch_time 100.44425773620605
+
+epoch->  82
+Iteration-> 0  , Iteration_time-> 0.0393 , Iteration_loss 0.0010
+Epoch 82 , average loss 0.0012379728997654526 , epoch_time 99.57672119140625
+
+epoch->  83
+Iteration-> 0  , Iteration_time-> 0.0478 , Iteration_loss 0.0004
+Epoch 83 , average loss 0.001237955830177237 , epoch_time 101.07500982284546
+
+epoch->  84
+Iteration-> 0  , Iteration_time-> 0.0478 , Iteration_loss 0.0024
+Epoch 84 , average loss 0.0012125004912801709 , epoch_time 103.47579765319824
+
+epoch->  85
+Iteration-> 0  , Iteration_time-> 0.0467 , Iteration_loss 0.0021
+Epoch 85 , average loss 0.0012649165070993539 , epoch_time 103.34911918640137
+
+epoch->  86
+Iteration-> 0  , Iteration_time-> 0.0468 , Iteration_loss 0.0015
+Epoch 86 , average loss 0.001208367945072447 , epoch_time 105.31172561645508
+
+epoch->  87
+Iteration-> 0  , Iteration_time-> 0.0483 , Iteration_loss 0.0008
+Epoch 87 , average loss 0.0012167027864055638 , epoch_time 104.03145432472229
+
+epoch->  88
+Iteration-> 0  , Iteration_time-> 0.0454 , Iteration_loss 0.0016
+Epoch 88 , average loss 0.0012280714896989212 , epoch_time 105.24168944358826
+
+epoch->  89
+Iteration-> 0  , Iteration_time-> 0.0444 , Iteration_loss 0.0008
+Epoch 89 , average loss 0.0012206241677042977 , epoch_time 105.3956949710846
+
+epoch->  90
+Iteration-> 0  , Iteration_time-> 0.0438 , Iteration_loss 0.0027
+Epoch 90 , average loss 0.0012376238838242724 , epoch_time 104.94158148765564
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:12<00:00, 10.12it/s]
+here 128
+
+Current iteration time 12.650508403778076
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.4453125
+Current iteration Hits@10 are 0.1953125
+Current iteration Hits@3 are 0.09375
+Current iteration Hits@1 are 0.0703125
+Current iteration Mean rank 551.2421875
+Current iteration Mean Reciprocal Rank 0.10992243997911699
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.71875
+Current iteration Hits@10 are 0.2890625
+Current iteration Hits@3 are 0.1953125
+Current iteration Hits@1 are 0.1171875
+Current iteration Mean rank 254.984375
+Current iteration Mean Reciprocal Rank 0.18501691136473428
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.4453125
+Hits@10 are 0.1953125
+Hits@3 are 0.09375
+Hits@1 are 0.0703125
+Mean rank 551.2421875
+Mean Reciprocal Rank 0.10992243997911699
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.71875
+Hits@10 are 0.2890625
+Hits@3 are 0.1953125
+Hits@1 are 0.1171875
+Mean rank 254.984375
+Mean Reciprocal Rank 0.18501691136473428
+
+Cumulative stats are ->
+Hits@100 are 0.58203125
+Hits@10 are 0.2421875
+Hits@3 are 0.14453125
+Hits@1 are 0.09375
+Mean rank 403.11328125
+Mean Reciprocal Rank 0.14746967567192565
+
+epoch->  91
+Iteration-> 0  , Iteration_time-> 0.0395 , Iteration_loss 0.0005
+Epoch 91 , average loss 0.0012367639111244117 , epoch_time 102.74676322937012
+
+epoch->  92
+Iteration-> 0  , Iteration_time-> 0.0319 , Iteration_loss 0.0004
+Epoch 92 , average loss 0.0012407510512960095 , epoch_time 103.4115982055664
+
+epoch->  93
+Iteration-> 0  , Iteration_time-> 0.0245 , Iteration_loss 0.0007
+Epoch 93 , average loss 0.0012324071767417317 , epoch_time 104.9422812461853
+
+epoch->  94
+Iteration-> 0  , Iteration_time-> 0.0362 , Iteration_loss 0.0017
+Epoch 94 , average loss 0.001207967427165378 , epoch_time 104.332435131073
+
+epoch->  95
+Iteration-> 0  , Iteration_time-> 0.0363 , Iteration_loss 0.0024
+Epoch 95 , average loss 0.0012144728313810836 , epoch_time 103.95002365112305
+
+epoch->  96
+Iteration-> 0  , Iteration_time-> 0.0458 , Iteration_loss 0.0012
+Epoch 96 , average loss 0.0012104048229858448 , epoch_time 101.5642638206482
+
+epoch->  97
+Iteration-> 0  , Iteration_time-> 0.0374 , Iteration_loss 0.0004
+Epoch 97 , average loss 0.0012394444053131397 , epoch_time 102.64798140525818
+
+epoch->  98
+Iteration-> 0  , Iteration_time-> 0.0452 , Iteration_loss 0.0008
+Epoch 98 , average loss 0.00124248783615013 , epoch_time 99.51519536972046
+
+epoch->  99
+Iteration-> 0  , Iteration_time-> 0.0386 , Iteration_loss 0.0009
+Epoch 99 , average loss 0.0012159165746945474 , epoch_time 99.70224046707153
+
+epoch->  100
+Iteration-> 0  , Iteration_time-> 0.0427 , Iteration_loss 0.0009
+Epoch 100 , average loss 0.001088386868317905 , epoch_time 99.10596680641174
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:11<00:00, 10.90it/s]
+here 128
+
+Current iteration time 11.745050191879272
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.4921875
+Current iteration Hits@10 are 0.1875
+Current iteration Hits@3 are 0.125
+Current iteration Hits@1 are 0.0625
+Current iteration Mean rank 451.984375
+Current iteration Mean Reciprocal Rank 0.1150364977658175
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.71875
+Current iteration Hits@10 are 0.34375
+Current iteration Hits@3 are 0.203125
+Current iteration Hits@1 are 0.1171875
+Current iteration Mean rank 250.1015625
+Current iteration Mean Reciprocal Rank 0.19078042570183598
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.4921875
+Hits@10 are 0.1875
+Hits@3 are 0.125
+Hits@1 are 0.0625
+Mean rank 451.984375
+Mean Reciprocal Rank 0.1150364977658175
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.71875
+Hits@10 are 0.34375
+Hits@3 are 0.203125
+Hits@1 are 0.1171875
+Mean rank 250.1015625
+Mean Reciprocal Rank 0.19078042570183598
+
+Cumulative stats are ->
+Hits@100 are 0.60546875
+Hits@10 are 0.265625
+Hits@3 are 0.1640625
+Hits@1 are 0.08984375
+Mean rank 351.04296875
+Mean Reciprocal Rank 0.15290846173382674
+
+epoch->  101
+Iteration-> 0  , Iteration_time-> 0.0381 , Iteration_loss 0.0008
+Epoch 101 , average loss 0.0010177144345539155 , epoch_time 103.74013257026672
+
+epoch->  102
+Iteration-> 0  , Iteration_time-> 0.0464 , Iteration_loss 0.0014
+Epoch 102 , average loss 0.0009785118948517986 , epoch_time 100.53085589408875
+
+epoch->  103
+Iteration-> 0  , Iteration_time-> 0.0447 , Iteration_loss 0.0005
+Epoch 103 , average loss 0.0009497094201444239 , epoch_time 101.57129502296448
+
+epoch->  104
+Iteration-> 0  , Iteration_time-> 0.0287 , Iteration_loss 0.0006
+Epoch 104 , average loss 0.0009470446259732295 , epoch_time 98.16037225723267
+
+epoch->  105
+Iteration-> 0  , Iteration_time-> 0.0610 , Iteration_loss 0.0005
+Epoch 105 , average loss 0.0009536446670090223 , epoch_time 105.61624193191528
+
+epoch->  106
+Iteration-> 0  , Iteration_time-> 0.0396 , Iteration_loss 0.0008
+Epoch 106 , average loss 0.0009251791943363063 , epoch_time 101.07890248298645
+
+epoch->  107
+Iteration-> 0  , Iteration_time-> 0.0449 , Iteration_loss 0.0007
+Epoch 107 , average loss 0.0009562860276753316 , epoch_time 104.99695253372192
+
+epoch->  108
+Iteration-> 0  , Iteration_time-> 0.0382 , Iteration_loss 0.0009
+Epoch 108 , average loss 0.0009172284799163175 , epoch_time 102.09359741210938
+
+epoch->  109
+Iteration-> 0  , Iteration_time-> 0.0263 , Iteration_loss 0.0012
+Epoch 109 , average loss 0.000931220872183453 , epoch_time 104.75497770309448
+
+epoch->  110
+Iteration-> 0  , Iteration_time-> 0.0450 , Iteration_loss 0.0010
+Epoch 110 , average loss 0.0009384031619256545 , epoch_time 101.46022295951843
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:12<00:00, 10.21it/s]
+here 128
+
+Current iteration time 12.543768644332886
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.5078125
+Current iteration Hits@10 are 0.21875
+Current iteration Hits@3 are 0.109375
+Current iteration Hits@1 are 0.0859375
+Current iteration Mean rank 457.2265625
+Current iteration Mean Reciprocal Rank 0.12407334164971001
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.75
+Current iteration Hits@10 are 0.359375
+Current iteration Hits@3 are 0.2109375
+Current iteration Hits@1 are 0.1171875
+Current iteration Mean rank 249.3671875
+Current iteration Mean Reciprocal Rank 0.2001895944666559
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.5078125
+Hits@10 are 0.21875
+Hits@3 are 0.109375
+Hits@1 are 0.0859375
+Mean rank 457.2265625
+Mean Reciprocal Rank 0.12407334164971001
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.75
+Hits@10 are 0.359375
+Hits@3 are 0.2109375
+Hits@1 are 0.1171875
+Mean rank 249.3671875
+Mean Reciprocal Rank 0.2001895944666559
+
+Cumulative stats are ->
+Hits@100 are 0.62890625
+Hits@10 are 0.2890625
+Hits@3 are 0.16015625
+Hits@1 are 0.1015625
+Mean rank 353.296875
+Mean Reciprocal Rank 0.16213146805818296
+
+epoch->  111
+Iteration-> 0  , Iteration_time-> 0.0300 , Iteration_loss 0.0011
+Epoch 111 , average loss 0.0009395621584065022 , epoch_time 105.9073851108551
+
+epoch->  112
+Iteration-> 0  , Iteration_time-> 0.0617 , Iteration_loss 0.0009
+Epoch 112 , average loss 0.0009177744281172677 , epoch_time 102.25972056388855
+
+epoch->  113
+Iteration-> 0  , Iteration_time-> 0.0548 , Iteration_loss 0.0008
+Epoch 113 , average loss 0.0009329342897966073 , epoch_time 107.07187366485596
+
+epoch->  114
+Iteration-> 0  , Iteration_time-> 0.0467 , Iteration_loss 0.0007
+Epoch 114 , average loss 0.0009194665573872906 , epoch_time 106.41309380531311
+
+epoch->  115
+Iteration-> 0  , Iteration_time-> 0.0412 , Iteration_loss 0.0005
+Epoch 115 , average loss 0.0009254790578983279 , epoch_time 104.11825966835022
+
+epoch->  116
+Iteration-> 0  , Iteration_time-> 0.0392 , Iteration_loss 0.0012
+Epoch 116 , average loss 0.0009303431558391642 , epoch_time 106.7942430973053
+
+epoch->  117
+Iteration-> 0  , Iteration_time-> 0.0448 , Iteration_loss 0.0005
+Epoch 117 , average loss 0.0009175941303735647 , epoch_time 106.31721210479736
+
+epoch->  118
+Iteration-> 0  , Iteration_time-> 0.0459 , Iteration_loss 0.0006
+Epoch 118 , average loss 0.0009022984015412024 , epoch_time 106.27945494651794
+
+epoch->  119
+Iteration-> 0  , Iteration_time-> 0.0426 , Iteration_loss 0.0003
+Epoch 119 , average loss 0.0009375275626454654 , epoch_time 105.13351273536682
+
+epoch->  120
+Iteration-> 0  , Iteration_time-> 0.0285 , Iteration_loss 0.0007
+Epoch 120 , average loss 0.0009380410445926567 , epoch_time 103.19637179374695
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:12<00:00, 10.16it/s]
+here 128
+
+Current iteration time 12.604371786117554
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.5078125
+Current iteration Hits@10 are 0.1953125
+Current iteration Hits@3 are 0.1015625
+Current iteration Hits@1 are 0.0703125
+Current iteration Mean rank 407.7890625
+Current iteration Mean Reciprocal Rank 0.11292455034680046
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.7578125
+Current iteration Hits@10 are 0.3828125
+Current iteration Hits@3 are 0.21875
+Current iteration Hits@1 are 0.09375
+Current iteration Mean rank 234.6953125
+Current iteration Mean Reciprocal Rank 0.19224095139495698
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.5078125
+Hits@10 are 0.1953125
+Hits@3 are 0.1015625
+Hits@1 are 0.0703125
+Mean rank 407.7890625
+Mean Reciprocal Rank 0.11292455034680046
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.7578125
+Hits@10 are 0.3828125
+Hits@3 are 0.21875
+Hits@1 are 0.09375
+Mean rank 234.6953125
+Mean Reciprocal Rank 0.19224095139495698
+
+Cumulative stats are ->
+Hits@100 are 0.6328125
+Hits@10 are 0.2890625
+Hits@3 are 0.16015625
+Hits@1 are 0.08203125
+Mean rank 321.2421875
+Mean Reciprocal Rank 0.15258275087087872
+
+epoch->  121
+Iteration-> 0  , Iteration_time-> 0.0304 , Iteration_loss 0.0007
+Epoch 121 , average loss 0.0009247842131044343 , epoch_time 105.85900354385376
+
+epoch->  122
+Iteration-> 0  , Iteration_time-> 0.0403 , Iteration_loss 0.0011
+Epoch 122 , average loss 0.0009230858604333899 , epoch_time 101.77106547355652
+
+epoch->  123
+Iteration-> 0  , Iteration_time-> 0.0425 , Iteration_loss 0.0022
+Epoch 123 , average loss 0.0009367172965501292 , epoch_time 104.51810932159424
+
+epoch->  124
+Iteration-> 0  , Iteration_time-> 0.0258 , Iteration_loss 0.0006
+Epoch 124 , average loss 0.0009447971516543331 , epoch_time 104.68468689918518
+
+epoch->  125
+Iteration-> 0  , Iteration_time-> 0.0448 , Iteration_loss 0.0004
+Epoch 125 , average loss 0.0008719889803498573 , epoch_time 118.08219504356384
+
+epoch->  126
+Iteration-> 0  , Iteration_time-> 0.0492 , Iteration_loss 0.0008
+Epoch 126 , average loss 0.000834671321417764 , epoch_time 119.57936716079712
+
+epoch->  127
+Iteration-> 0  , Iteration_time-> 0.0477 , Iteration_loss 0.0017
+Epoch 127 , average loss 0.0008454323475116488 , epoch_time 110.57717943191528
+
+epoch->  128
+Iteration-> 0  , Iteration_time-> 0.0454 , Iteration_loss 0.0006
+Epoch 128 , average loss 0.0008349291408142213 , epoch_time 106.09260272979736
+
+epoch->  129
+Iteration-> 0  , Iteration_time-> 0.0538 , Iteration_loss 0.0004
+Epoch 129 , average loss 0.0008248102875223369 , epoch_time 103.32355070114136
+
+epoch->  130
+Iteration-> 0  , Iteration_time-> 0.0449 , Iteration_loss 0.0007
+Epoch 130 , average loss 0.0008313966021937234 , epoch_time 103.25325226783752
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:12<00:00, 10.30it/s]
+here 128
+
+Current iteration time 12.446592569351196
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.4765625
+Current iteration Hits@10 are 0.2421875
+Current iteration Hits@3 are 0.1171875
+Current iteration Hits@1 are 0.0703125
+Current iteration Mean rank 429.7109375
+Current iteration Mean Reciprocal Rank 0.12034151990487191
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.7578125
+Current iteration Hits@10 are 0.375
+Current iteration Hits@3 are 0.203125
+Current iteration Hits@1 are 0.109375
+Current iteration Mean rank 250.625
+Current iteration Mean Reciprocal Rank 0.1985876378862218
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.4765625
+Hits@10 are 0.2421875
+Hits@3 are 0.1171875
+Hits@1 are 0.0703125
+Mean rank 429.7109375
+Mean Reciprocal Rank 0.12034151990487191
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.7578125
+Hits@10 are 0.375
+Hits@3 are 0.203125
+Hits@1 are 0.109375
+Mean rank 250.625
+Mean Reciprocal Rank 0.1985876378862218
+
+Cumulative stats are ->
+Hits@100 are 0.6171875
+Hits@10 are 0.30859375
+Hits@3 are 0.16015625
+Hits@1 are 0.08984375
+Mean rank 340.16796875
+Mean Reciprocal Rank 0.15946457889554685
+
+epoch->  131
+Iteration-> 0  , Iteration_time-> 0.0282 , Iteration_loss 0.0023
+Epoch 131 , average loss 0.0008340980056844681 , epoch_time 105.83199882507324
+
+epoch->  132
+Iteration-> 0  , Iteration_time-> 0.0462 , Iteration_loss 0.0013
+Epoch 132 , average loss 0.0008096875977111163 , epoch_time 104.8449318408966
+
+epoch->  133
+Iteration-> 0  , Iteration_time-> 0.0274 , Iteration_loss 0.0008
+Epoch 133 , average loss 0.00081543329912355 , epoch_time 105.2928397655487
+
+epoch->  134
+Iteration-> 0  , Iteration_time-> 0.0289 , Iteration_loss 0.0017
+Epoch 134 , average loss 0.0008276137376807236 , epoch_time 101.54205560684204
+
+epoch->  135
+Iteration-> 0  , Iteration_time-> 0.0237 , Iteration_loss 0.0007
+Epoch 135 , average loss 0.0008119543387863092 , epoch_time 60.957475662231445
+
+epoch->  136
+Iteration-> 0  , Iteration_time-> 0.0240 , Iteration_loss 0.0004
+Epoch 136 , average loss 0.0008243354009641799 , epoch_time 57.76989436149597
+
+epoch->  137
+Iteration-> 0  , Iteration_time-> 0.0398 , Iteration_loss 0.0005
+Epoch 137 , average loss 0.0008207880590417224 , epoch_time 59.90208649635315
+
+epoch->  138
+Iteration-> 0  , Iteration_time-> 0.0237 , Iteration_loss 0.0005
+Epoch 138 , average loss 0.0007983614480988537 , epoch_time 58.892520904541016
+
+epoch->  139
+Iteration-> 0  , Iteration_time-> 0.0239 , Iteration_loss 0.0005
+Epoch 139 , average loss 0.0008237868063407009 , epoch_time 58.07412314414978
+
+epoch->  140
+Iteration-> 0  , Iteration_time-> 0.0471 , Iteration_loss 0.0007
+Epoch 140 , average loss 0.0008040615134456993 , epoch_time 57.42230272293091
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:11<00:00, 11.04it/s]
+here 128
+
+Current iteration time 11.600047826766968
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.53125
+Current iteration Hits@10 are 0.21875
+Current iteration Hits@3 are 0.109375
+Current iteration Hits@1 are 0.0625
+Current iteration Mean rank 426.3359375
+Current iteration Mean Reciprocal Rank 0.11151944805313294
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.7578125
+Current iteration Hits@10 are 0.359375
+Current iteration Hits@3 are 0.2109375
+Current iteration Hits@1 are 0.125
+Current iteration Mean rank 272.4453125
+Current iteration Mean Reciprocal Rank 0.20146657846113894
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.53125
+Hits@10 are 0.21875
+Hits@3 are 0.109375
+Hits@1 are 0.0625
+Mean rank 426.3359375
+Mean Reciprocal Rank 0.11151944805313294
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.7578125
+Hits@10 are 0.359375
+Hits@3 are 0.2109375
+Hits@1 are 0.125
+Mean rank 272.4453125
+Mean Reciprocal Rank 0.20146657846113894
+
+Cumulative stats are ->
+Hits@100 are 0.64453125
+Hits@10 are 0.2890625
+Hits@3 are 0.16015625
+Hits@1 are 0.09375
+Mean rank 349.390625
+Mean Reciprocal Rank 0.15649301325713594
+
+epoch->  141
+Iteration-> 0  , Iteration_time-> 0.0301 , Iteration_loss 0.0009
+Epoch 141 , average loss 0.0008002710597529816 , epoch_time 56.84643912315369
+
+epoch->  142
+Iteration-> 0  , Iteration_time-> 0.0235 , Iteration_loss 0.0004
+Epoch 142 , average loss 0.0007983934378903272 , epoch_time 58.49425482749939
+
+epoch->  143
+Iteration-> 0  , Iteration_time-> 0.0236 , Iteration_loss 0.0005
+Epoch 143 , average loss 0.0007919570392536294 , epoch_time 60.470808029174805
+
+epoch->  144
+Iteration-> 0  , Iteration_time-> 0.0241 , Iteration_loss 0.0004
+Epoch 144 , average loss 0.0008180791440453583 , epoch_time 60.65990352630615
+
+epoch->  145
+Iteration-> 0  , Iteration_time-> 0.0242 , Iteration_loss 0.0005
+Epoch 145 , average loss 0.0008227559459280277 , epoch_time 59.0567421913147
+
+epoch->  146
+Iteration-> 0  , Iteration_time-> 0.0240 , Iteration_loss 0.0011
+Epoch 146 , average loss 0.000814607476969232 , epoch_time 58.53262448310852
+
+epoch->  147
+Iteration-> 0  , Iteration_time-> 0.0261 , Iteration_loss 0.0006
+Epoch 147 , average loss 0.0008123765598550751 , epoch_time 57.67425608634949
+
+epoch->  148
+Iteration-> 0  , Iteration_time-> 0.0250 , Iteration_loss 0.0012
+Epoch 148 , average loss 0.0008234103219483423 , epoch_time 58.33217740058899
+
+epoch->  149
+Iteration-> 0  , Iteration_time-> 0.0244 , Iteration_loss 0.0010
+Epoch 149 , average loss 0.0008023970660800421 , epoch_time 59.3293514251709
+
+epoch->  150
+Iteration-> 0  , Iteration_time-> 0.0376 , Iteration_loss 0.0003
+Epoch 150 , average loss 0.000797978492368491 , epoch_time 56.59711480140686
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:09<00:00, 14.17it/s]
+here 128
+
+Current iteration time 9.038298606872559
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.5234375
+Current iteration Hits@10 are 0.234375
+Current iteration Hits@3 are 0.125
+Current iteration Hits@1 are 0.0859375
+Current iteration Mean rank 442.1171875
+Current iteration Mean Reciprocal Rank 0.13189649989653315
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.7421875
+Current iteration Hits@10 are 0.3515625
+Current iteration Hits@3 are 0.21875
+Current iteration Hits@1 are 0.125
+Current iteration Mean rank 276.609375
+Current iteration Mean Reciprocal Rank 0.20787713352353687
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.5234375
+Hits@10 are 0.234375
+Hits@3 are 0.125
+Hits@1 are 0.0859375
+Mean rank 442.1171875
+Mean Reciprocal Rank 0.13189649989653315
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.7421875
+Hits@10 are 0.3515625
+Hits@3 are 0.21875
+Hits@1 are 0.125
+Mean rank 276.609375
+Mean Reciprocal Rank 0.20787713352353687
+
+Cumulative stats are ->
+Hits@100 are 0.6328125
+Hits@10 are 0.29296875
+Hits@3 are 0.171875
+Hits@1 are 0.10546875
+Mean rank 359.36328125
+Mean Reciprocal Rank 0.16988681671003503
+
+epoch->  151
+Iteration-> 0  , Iteration_time-> 0.0332 , Iteration_loss 0.0011
+Epoch 151 , average loss 0.0007854452132900541 , epoch_time 59.565622091293335
+
+epoch->  152
+Iteration-> 0  , Iteration_time-> 0.0242 , Iteration_loss 0.0004
+Epoch 152 , average loss 0.0007732493558424694 , epoch_time 59.67604613304138
+
+epoch->  153
+Iteration-> 0  , Iteration_time-> 0.0244 , Iteration_loss 0.0006
+Epoch 153 , average loss 0.0007766516297357047 , epoch_time 56.4819552898407
+
+epoch->  154
+Iteration-> 0  , Iteration_time-> 0.0241 , Iteration_loss 0.0007
+Epoch 154 , average loss 0.0007798168945664177 , epoch_time 56.930469036102295
+
+epoch->  155
+Iteration-> 0  , Iteration_time-> 0.0273 , Iteration_loss 0.0006
+Epoch 155 , average loss 0.000755193208295601 , epoch_time 57.76242017745972
+
+epoch->  156
+Iteration-> 0  , Iteration_time-> 0.0239 , Iteration_loss 0.0005
+Epoch 156 , average loss 0.0007811343769142812 , epoch_time 57.78449487686157
+
+epoch->  157
+Iteration-> 0  , Iteration_time-> 0.0241 , Iteration_loss 0.0009
+Epoch 157 , average loss 0.0007713405996369835 , epoch_time 57.54675269126892
+
+epoch->  158
+Iteration-> 0  , Iteration_time-> 0.0244 , Iteration_loss 0.0003
+Epoch 158 , average loss 0.0007624296727784653 , epoch_time 57.60437726974487
+
+epoch->  159
+Iteration-> 0  , Iteration_time-> 0.0243 , Iteration_loss 0.0006
+Epoch 159 , average loss 0.0007646049387828137 , epoch_time 57.000540256500244
+
+epoch->  160
+Iteration-> 0  , Iteration_time-> 0.0367 , Iteration_loss 0.0019
+Epoch 160 , average loss 0.0007691702258072028 , epoch_time 56.4601686000824
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:09<00:00, 13.90it/s]
+here 128
+
+Current iteration time 9.310409784317017
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.5078125
+Current iteration Hits@10 are 0.2265625
+Current iteration Hits@3 are 0.125
+Current iteration Hits@1 are 0.078125
+Current iteration Mean rank 431.21875
+Current iteration Mean Reciprocal Rank 0.1255242395794844
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.7421875
+Current iteration Hits@10 are 0.3671875
+Current iteration Hits@3 are 0.21875
+Current iteration Hits@1 are 0.1328125
+Current iteration Mean rank 275.078125
+Current iteration Mean Reciprocal Rank 0.21253313683464298
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.5078125
+Hits@10 are 0.2265625
+Hits@3 are 0.125
+Hits@1 are 0.078125
+Mean rank 431.21875
+Mean Reciprocal Rank 0.1255242395794844
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.7421875
+Hits@10 are 0.3671875
+Hits@3 are 0.21875
+Hits@1 are 0.1328125
+Mean rank 275.078125
+Mean Reciprocal Rank 0.21253313683464298
+
+Cumulative stats are ->
+Hits@100 are 0.625
+Hits@10 are 0.296875
+Hits@3 are 0.171875
+Hits@1 are 0.10546875
+Mean rank 353.1484375
+Mean Reciprocal Rank 0.16902868820706368
+
+epoch->  161
+Iteration-> 0  , Iteration_time-> 0.0247 , Iteration_loss 0.0014
+Epoch 161 , average loss 0.000764995532598555 , epoch_time 56.84489297866821
+
+epoch->  162
+Iteration-> 0  , Iteration_time-> 0.0240 , Iteration_loss 0.0012
+Epoch 162 , average loss 0.0007669423302072749 , epoch_time 57.43128061294556
+
+epoch->  163
+Iteration-> 0  , Iteration_time-> 0.0243 , Iteration_loss 0.0004
+Epoch 163 , average loss 0.000772915961375442 , epoch_time 55.321556091308594
+
+epoch->  164
+Iteration-> 0  , Iteration_time-> 0.0253 , Iteration_loss 0.0011
+Epoch 164 , average loss 0.0007647543871164828 , epoch_time 56.48700284957886
+
+epoch->  165
+Iteration-> 0  , Iteration_time-> 0.0236 , Iteration_loss 0.0012
+Epoch 165 , average loss 0.0007660806079099751 , epoch_time 59.64175534248352
+
+epoch->  166
+Iteration-> 0  , Iteration_time-> 0.0244 , Iteration_loss 0.0007
+Epoch 166 , average loss 0.0007626388453139669 , epoch_time 56.063361406326294
+
+epoch->  167
+Iteration-> 0  , Iteration_time-> 0.0241 , Iteration_loss 0.0017
+Epoch 167 , average loss 0.0007613489049434686 , epoch_time 60.13511395454407
+
+epoch->  168
+Iteration-> 0  , Iteration_time-> 0.0365 , Iteration_loss 0.0010
+Epoch 168 , average loss 0.0007680379653151624 , epoch_time 59.57215213775635
+
+epoch->  169
+Iteration-> 0  , Iteration_time-> 0.0239 , Iteration_loss 0.0004
+Epoch 169 , average loss 0.0007512004894700216 , epoch_time 57.861674785614014
+
+epoch->  170
+Iteration-> 0  , Iteration_time-> 0.0242 , Iteration_loss 0.0004
+Epoch 170 , average loss 0.0007783383661316535 , epoch_time 59.67686104774475
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:08<00:00, 14.47it/s]
+here 128
+
+Current iteration time 8.847980499267578
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.5078125
+Current iteration Hits@10 are 0.21875
+Current iteration Hits@3 are 0.1328125
+Current iteration Hits@1 are 0.078125
+Current iteration Mean rank 423.4765625
+Current iteration Mean Reciprocal Rank 0.1267545391005145
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.7578125
+Current iteration Hits@10 are 0.3828125
+Current iteration Hits@3 are 0.21875
+Current iteration Hits@1 are 0.1171875
+Current iteration Mean rank 271.1796875
+Current iteration Mean Reciprocal Rank 0.20625862768950004
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.5078125
+Hits@10 are 0.21875
+Hits@3 are 0.1328125
+Hits@1 are 0.078125
+Mean rank 423.4765625
+Mean Reciprocal Rank 0.1267545391005145
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.7578125
+Hits@10 are 0.3828125
+Hits@3 are 0.21875
+Hits@1 are 0.1171875
+Mean rank 271.1796875
+Mean Reciprocal Rank 0.20625862768950004
+
+Cumulative stats are ->
+Hits@100 are 0.6328125
+Hits@10 are 0.30078125
+Hits@3 are 0.17578125
+Hits@1 are 0.09765625
+Mean rank 347.328125
+Mean Reciprocal Rank 0.1665065833950073
+
+epoch->  171
+Iteration-> 0  , Iteration_time-> 0.0238 , Iteration_loss 0.0004
+Epoch 171 , average loss 0.000783034045784099 , epoch_time 59.16793489456177
+
+epoch->  172
+Iteration-> 0  , Iteration_time-> 0.0238 , Iteration_loss 0.0005
+Epoch 172 , average loss 0.0007584328133854244 , epoch_time 61.46642851829529
+
+epoch->  173
+Iteration-> 0  , Iteration_time-> 0.0240 , Iteration_loss 0.0006
+Epoch 173 , average loss 0.0007577066561417446 , epoch_time 57.30568718910217
+
+epoch->  174
+Iteration-> 0  , Iteration_time-> 0.0239 , Iteration_loss 0.0006
+Epoch 174 , average loss 0.0007583102850955959 , epoch_time 61.39570927619934
+
+epoch->  175
+Iteration-> 0  , Iteration_time-> 0.0240 , Iteration_loss 0.0002
+Epoch 175 , average loss 0.0007641501423825272 , epoch_time 57.662397623062134
+
+epoch->  176
+Iteration-> 0  , Iteration_time-> 0.0241 , Iteration_loss 0.0004
+Epoch 176 , average loss 0.0007528898990103605 , epoch_time 72.34963893890381
+
+epoch->  177
+Iteration-> 0  , Iteration_time-> 0.3117 , Iteration_loss 0.0005
+Epoch 177 , average loss 0.0007484234439466247 , epoch_time 68.28094983100891
+
+epoch->  178
+Iteration-> 0  , Iteration_time-> 0.0241 , Iteration_loss 0.0004
+Epoch 178 , average loss 0.0007377787581836058 , epoch_time 56.46324920654297
+
+epoch->  179
+Iteration-> 0  , Iteration_time-> 0.0235 , Iteration_loss 0.0010
+Epoch 179 , average loss 0.0007453370242537199 , epoch_time 55.761610984802246
+
+epoch->  180
+Iteration-> 0  , Iteration_time-> 0.0240 , Iteration_loss 0.0012
+Epoch 180 , average loss 0.0007396668792051843 , epoch_time 57.75848340988159
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:08<00:00, 14.34it/s]
+here 128
+
+Current iteration time 8.930287837982178
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.53125
+Current iteration Hits@10 are 0.2265625
+Current iteration Hits@3 are 0.109375
+Current iteration Hits@1 are 0.0703125
+Current iteration Mean rank 421.0546875
+Current iteration Mean Reciprocal Rank 0.11896003618830404
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.7578125
+Current iteration Hits@10 are 0.3984375
+Current iteration Hits@3 are 0.21875
+Current iteration Hits@1 are 0.1171875
+Current iteration Mean rank 285.0234375
+Current iteration Mean Reciprocal Rank 0.20477305562403478
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.53125
+Hits@10 are 0.2265625
+Hits@3 are 0.109375
+Hits@1 are 0.0703125
+Mean rank 421.0546875
+Mean Reciprocal Rank 0.11896003618830404
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.7578125
+Hits@10 are 0.3984375
+Hits@3 are 0.21875
+Hits@1 are 0.1171875
+Mean rank 285.0234375
+Mean Reciprocal Rank 0.20477305562403478
+
+Cumulative stats are ->
+Hits@100 are 0.64453125
+Hits@10 are 0.3125
+Hits@3 are 0.1640625
+Hits@1 are 0.09375
+Mean rank 353.0390625
+Mean Reciprocal Rank 0.16186654590616942
+
+epoch->  181
+Iteration-> 0  , Iteration_time-> 0.0258 , Iteration_loss 0.0004
+Epoch 181 , average loss 0.0007461160114932493 , epoch_time 55.841060638427734
+
+epoch->  182
+Iteration-> 0  , Iteration_time-> 0.0235 , Iteration_loss 0.0011
+Epoch 182 , average loss 0.0007342058390866626 , epoch_time 56.14872598648071
+
+epoch->  183
+Iteration-> 0  , Iteration_time-> 0.0239 , Iteration_loss 0.0005
+Epoch 183 , average loss 0.0007414131095459437 , epoch_time 56.15212821960449
+
+epoch->  184
+Iteration-> 0  , Iteration_time-> 0.0259 , Iteration_loss 0.0008
+Epoch 184 , average loss 0.0007622939655733047 , epoch_time 56.50642466545105
+
+epoch->  185
+Iteration-> 0  , Iteration_time-> 0.0254 , Iteration_loss 0.0004
+Epoch 185 , average loss 0.0007410273938867446 , epoch_time 55.83505177497864
+
+epoch->  186
+Iteration-> 0  , Iteration_time-> 0.0232 , Iteration_loss 0.0010
+Epoch 186 , average loss 0.0007570055803286349 , epoch_time 55.432350158691406
+
+epoch->  187
+Iteration-> 0  , Iteration_time-> 0.0245 , Iteration_loss 0.0004
+Epoch 187 , average loss 0.0007450404931624224 , epoch_time 54.586416482925415
+
+epoch->  188
+Iteration-> 0  , Iteration_time-> 0.0236 , Iteration_loss 0.0010
+Epoch 188 , average loss 0.0007380475508329929 , epoch_time 55.02656888961792
+
+epoch->  189
+Iteration-> 0  , Iteration_time-> 0.0348 , Iteration_loss 0.0004
+Epoch 189 , average loss 0.0007434228248174148 , epoch_time 56.50360584259033
+
+epoch->  190
+Iteration-> 0  , Iteration_time-> 0.0242 , Iteration_loss 0.0003
+Epoch 190 , average loss 0.0007271805259191365 , epoch_time 56.4301381111145
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:08<00:00, 14.52it/s]
+here 128
+
+Current iteration time 8.815454721450806
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.546875
+Current iteration Hits@10 are 0.234375
+Current iteration Hits@3 are 0.1328125
+Current iteration Hits@1 are 0.0703125
+Current iteration Mean rank 395.1640625
+Current iteration Mean Reciprocal Rank 0.12236363313011835
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.765625
+Current iteration Hits@10 are 0.40625
+Current iteration Hits@3 are 0.21875
+Current iteration Hits@1 are 0.125
+Current iteration Mean rank 288.2109375
+Current iteration Mean Reciprocal Rank 0.2126699596211135
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.546875
+Hits@10 are 0.234375
+Hits@3 are 0.1328125
+Hits@1 are 0.0703125
+Mean rank 395.1640625
+Mean Reciprocal Rank 0.12236363313011835
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.765625
+Hits@10 are 0.40625
+Hits@3 are 0.21875
+Hits@1 are 0.125
+Mean rank 288.2109375
+Mean Reciprocal Rank 0.2126699596211135
+
+Cumulative stats are ->
+Hits@100 are 0.65625
+Hits@10 are 0.3203125
+Hits@3 are 0.17578125
+Hits@1 are 0.09765625
+Mean rank 341.6875
+Mean Reciprocal Rank 0.16751679637561592
+
+epoch->  191
+Iteration-> 0  , Iteration_time-> 0.0241 , Iteration_loss 0.0003
+Epoch 191 , average loss 0.0007557606359995548 , epoch_time 56.88807678222656
+
+epoch->  192
+Iteration-> 0  , Iteration_time-> 0.0238 , Iteration_loss 0.0010
+Epoch 192 , average loss 0.0007471000995588934 , epoch_time 56.01024508476257
+
+epoch->  193
+Iteration-> 0  , Iteration_time-> 0.0238 , Iteration_loss 0.0005
+Epoch 193 , average loss 0.0007476825392403664 , epoch_time 55.56753444671631
+
+epoch->  194
+Iteration-> 0  , Iteration_time-> 0.0243 , Iteration_loss 0.0006
+Epoch 194 , average loss 0.0007405511901064698 , epoch_time 55.59667086601257
+
+epoch->  195
+Iteration-> 0  , Iteration_time-> 0.0236 , Iteration_loss 0.0003
+Epoch 195 , average loss 0.0007699398983219882 , epoch_time 55.94269013404846
+
+epoch->  196
+Iteration-> 0  , Iteration_time-> 0.0239 , Iteration_loss 0.0007
+Epoch 196 , average loss 0.0007356389505148674 , epoch_time 55.60630965232849
+
+epoch->  197
+Iteration-> 0  , Iteration_time-> 0.0246 , Iteration_loss 0.0010
+Epoch 197 , average loss 0.0007457996638693697 , epoch_time 56.254287004470825
+
+epoch->  198
+Iteration-> 0  , Iteration_time-> 0.0258 , Iteration_loss 0.0007
+Epoch 198 , average loss 0.000747681702998062 , epoch_time 56.16057205200195
+
+epoch->  199
+Iteration-> 0  , Iteration_time-> 0.0239 , Iteration_loss 0.0003
+Epoch 199 , average loss 0.000731975092303837 , epoch_time 56.066412687301636
+
+epoch->  200
+Iteration-> 0  , Iteration_time-> 0.0241 , Iteration_loss 0.0009
+Epoch 200 , average loss 0.0007211165765642301 , epoch_time 55.875887393951416
+Saving Model
+Done saving Model
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████████| 128/128 [00:08<00:00, 14.52it/s]
+here 128
+
+Current iteration time 8.814743041992188
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.5546875
+Current iteration Hits@10 are 0.234375
+Current iteration Hits@3 are 0.1171875
+Current iteration Hits@1 are 0.0703125
+Current iteration Mean rank 381.9765625
+Current iteration Mean Reciprocal Rank 0.12123999329827824
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.765625
+Current iteration Hits@10 are 0.3828125
+Current iteration Hits@3 are 0.21875
+Current iteration Hits@1 are 0.1328125
+Current iteration Mean rank 293.703125
+Current iteration Mean Reciprocal Rank 0.21883008297662054
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.5546875
+Hits@10 are 0.234375
+Hits@3 are 0.1171875
+Hits@1 are 0.0703125
+Mean rank 381.9765625
+Mean Reciprocal Rank 0.12123999329827824
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.765625
+Hits@10 are 0.3828125
+Hits@3 are 0.21875
+Hits@1 are 0.1328125
+Mean rank 293.703125
+Mean Reciprocal Rank 0.21883008297662054
+
+Cumulative stats are ->
+Hits@100 are 0.66015625
+Hits@10 are 0.30859375
+Hits@3 are 0.16796875
+Hits@1 are 0.1015625
+Mean rank 337.83984375
+Mean Reciprocal Rank 0.17003503813744938
+Sampled indices
+test set length  20466
+100%|███████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████
+███████████████████| 20466/20466 [23:02<00:00, 14.81it/s]
+here 20438
+
+Current iteration time 1382.2764291763306
+Stats for replacing head are ->
+Current iteration Hits@100 are 0.5927683726392015
+Current iteration Hits@10 are 0.26269693707799197
+Current iteration Hits@3 are 0.13533613856541735
+Current iteration Hits@1 are 0.0675212838829631
+Current iteration Mean rank 476.7433212643116
+Current iteration Mean Reciprocal Rank 0.13106821002594166
+
+Stats for replacing tail are ->
+Current iteration Hits@100 are 0.7481162540365985
+Current iteration Hits@10 are 0.4085526959585087
+Current iteration Hits@3 are 0.22423916234465213
+Current iteration Hits@1 are 0.11356297093649086
+Current iteration Mean rank 305.0
+Current iteration Mean Reciprocal Rank 0.20703511960646498
+
+Averaged stats for replacing head are ->
+Hits@100 are 0.5927683726392015
+Hits@10 are 0.26269693707799197
+Hits@3 are 0.13533613856541735
+Hits@1 are 0.0675212838829631
+Mean rank 476.7433212643116
+Mean Reciprocal Rank 0.13106821002594166
+
+Averaged stats for replacing tail are ->
+Hits@100 are 0.7481162540365985
+Hits@10 are 0.4085526959585087
+Hits@3 are 0.22423916234465213
+Hits@1 are 0.11356297093649086
+Mean rank 305.0
+Mean Reciprocal Rank 0.20703511960646498
+
+Cumulative stats are ->
+Hits@100 are 0.6704423133379
+Hits@10 are 0.3356248165182503
+Hits@3 are 0.17978765045503475
+Hits@1 are 0.09054212740972697
+Mean rank 390.8716606321558
+Mean Reciprocal Rank 0.16905166481620332
+(base) yz@prompt:~/KBAT$ tmux capture-pane -S -
+

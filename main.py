@@ -48,7 +48,7 @@ def parse_args():
     args.add_argument("-u2hop", "--use_2hop", type=bool, default=True)
     args.add_argument("-p2hop", "--partial_2hop", type=bool, default=False)
     args.add_argument("-outfolder", "--output_folder",
-                      default="./checkpoints/WN18RR/out/", help="Folder name to save the models.")
+                      default="./checkpoints/wn/out/", help="Folder name to save the models.")
 
     # arguments for GAT
     args.add_argument("-b_gat", "--batch_size_gat", type=int,
@@ -77,6 +77,9 @@ def parse_args():
                       help="Number of output channels in conv layer")
     args.add_argument("-drop_conv", "--drop_conv", type=float,
                       default=0.0, help="Dropout probability for convolution layer")
+
+#----------------------------add--label--------------------------------------------------------------------------
+    args.add_argument("--leakage", type=int)
 
     args = args.parse_args()
     return args
@@ -174,8 +177,7 @@ def train_gat(args):
         "\nModel type -> GAT layer with {} heads used , Initital Embeddings training".format(args.nheads_GAT[0]))
     model_gat = SpKBGATModified(entity_embeddings, relation_embeddings, args.entity_out_dim, args.entity_out_dim,
                                 args.drop_GAT, args.alpha, args.nheads_GAT)
-    model_gat.load_state_dict(torch.load('{}/trained_{}.pth'.format(args.output_folder, 3000)), strict=False)
-    print('load 3000 epoch model')
+
     if CUDA:
         model_gat.cuda()
 
@@ -262,7 +264,7 @@ def train_gat(args):
         epoch_losses.append(sum(epoch_loss) / len(epoch_loss))
 
         if epoch % 100 == 0: 
-            save_model(model_gat, args.data, epoch+3000, args.output_folder)
+            save_model(model_gat, args.data, epoch, args.output_folder)
 
 
 def train_conv(args):
@@ -301,7 +303,6 @@ def train_conv(args):
 
     if(args.epochs_conv == 0):
         save_model(model_conv, args.data, -1, args.output_folder + "conv/")
-
 
     for epoch in range(args.epochs_conv+1):
         print("\nepoch-> ", epoch)
@@ -346,7 +347,7 @@ def train_conv(args):
             epoch_loss.append(loss.data.item())
 
             #end_time_iter = time.time()
-            if iters % 1000 == 0:
+            if iters % 10000 == 0:
                 print("Iteration-> {0}  , Iteration_time-> {1:.4f} , Iteration_loss {2:.4f}".format(
                 iters, time.time() - start_time_iter, loss.data.item()))
                 start_time_iter = time.time()
@@ -356,7 +357,7 @@ def train_conv(args):
         print("Epoch {} , average loss {} , epoch_time {}".format(
             epoch, sum(epoch_loss) / len(epoch_loss), time.time() - start_time))
         
-        if epoch % 100 == 0:
+        if epoch % 10 == 0:
             save_model(model_conv, args.data, epoch, args.output_folder + "conv/")
             evaluate_conv(args, Corpus_.unique_entities_train, epoch, 'valid')
         
@@ -373,7 +374,6 @@ def evaluate_conv(args, unique_entities, epochs_conv, mode):
         Corpus_.get_validation_pred(args, model_conv, unique_entities, mode)
 
 
-#train_gat(args)
-#evaluate_conv(args, Corpus_.unique_entities_train, 0, 'valid')
+train_gat(args)
 train_conv(args)
 evaluate_conv(args, Corpus_.unique_entities_train,args.epochs_conv, 'test')
