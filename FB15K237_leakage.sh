@@ -10,6 +10,5 @@ CUDA_VISIBLE_DEVICES=3 python main.py \
     --out_channels 50 \
     --drop_conv 0.3 \
     --weight_decay_conv 0.000001 \
-    --output_folder ./checkpoints/fb/out/ \
-    --leakage 0 \
-
+    --output_folder ./checkpoints/fb/leak/ \
+    --leakage 1 \
